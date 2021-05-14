@@ -15,8 +15,7 @@ The scrapper will collect all tweets and send them to Kafka for analytics. The s
 a. Collecting tweets in real-time with particular hash tags. For example, we
 will collect all tweets with #vaccine or #coronavirus.
 b. After filtering, we will send them to Kafka in case if you use Python.
-c. You should use Kafka API (producer) in your program
-(https://kafka.apache.org/090/documentation.html#producerapi)
+c. You should use Kafka API (producer) 
 d. Your scrapper program will run infinitely and should take hash tag as input parameter while running.
 
 2. Kafka (for Python)
@@ -42,8 +41,7 @@ scala project. In python you can import nltk by installing it using pip.
 4. Elasticsearch
 You need to install the Elasticsearch and run it to store the tweets and their sentiment information for further visualization purpose.
 You can point http://localhost:9200 to check if it’s running.
-For further information, you can refer:
-https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+
 
 5. Kibana
 Kibana is a visualization tool that can explore the data stored in elasticsearch. In this assignment, instead of directly output the result, you are supposed to use the visualization tool to show your tweets sentiment classification result in a real-time manner. 
